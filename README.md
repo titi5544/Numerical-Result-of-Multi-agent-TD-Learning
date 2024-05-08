@@ -16,9 +16,8 @@ The following graph shows the Euclidean distance between the averaged parameters
 
 TD($\lambda$):
 
+The save result applied for TD($\lambda$), where $\lambda$ is chosen to be 0.5. The first figure is the learning curve and the second figure is the distance. 
 
-"loss_td(0)" and "loss_td(lambda)"  shown learning curves for different number of agents, which is denoted by n. The performance measure shown in the root mean-squared (RMS) error betwee nthe value function learned and the true value function, averaged over the five states, then averaged over n agnets. 
+![](loss_td(lambda).png)
 
-
-
-"distance_td(0)" and "distance_td(lambda)" shown the Euclidean distance between the averaged parameters $\bar{\theta}$ and the stationary point $\theta^*$. 
+![](diatance_td(lambda).png)

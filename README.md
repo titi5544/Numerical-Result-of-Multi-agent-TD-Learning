@@ -20,4 +20,4 @@ The save result applied for TD($\lambda$), where $\lambda$ is chosen to be 0.5. 
 
 ![](loss_td(lambda).png)
 
-![](diatance_td(lambda).png)
+![](distance_td(lambda).png)

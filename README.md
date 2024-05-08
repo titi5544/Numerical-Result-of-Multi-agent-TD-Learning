@@ -2,9 +2,9 @@
 
 In this project, we provide some numerical result of our paper "One-Shot Averaging for Distributed TD(λ) Under Markov Sampling". 
 
-We test on a five-state Random Walk task. There are five states in a row, named A, B, C, D, and E, from left to right. All episodes start in the center state, C, then proceed either left or right by one state on each step, with equal probability. Episodes terminate either on the extreme left or the exterme right. When an episode terminates on the right, a reward of +1 occurs; all other rewards are zero. 
+We test on a five-state Random Walk task. There are five states in a row, named A, B, C, D, and E, from left to right. All episodes start in the center state, C, then proceed either left or right by one state on each step, with equal probability. Episodes terminate either on the extreme left or the exterme right. When an episode terminates on the right, a reward of +1 occurs; all other rewards are zero. The true value of all the states, A through E, are 1/6, 2/6, 3/6, 4/6, and 5/6. For more details please refer to Example 6.2 in Sutton and Barto (2018). 
 
-For more details please refer to Example 6.2 in Sutton and Barto (2018). 
+We test two algorithm on this task, TD(0) and TD($\lambda$). The stepsize is chosen to be 1e-3 and both algorithm will run 100 episode. 
 
 TD(0):
 
